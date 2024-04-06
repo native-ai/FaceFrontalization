@@ -17,11 +17,12 @@ CHANNELS_IMG = 3
 L1_LAMBDA = 100
 LAMBDA_GP = 10
 NUM_EPOCHS = 50
-LOAD_MODEL = True
-SAVE_MODEL = True
 CHECKPOINT_DISC = "disc.pth.tar"
 CHECKPOINT_GEN = "gen.pth.tar"
-weigths_paths = "weigths/"
+weights_paths = "weights/"
+weight_ver = "0"
+LOAD_MODEL = True if int(weight_ver) else False
+SAVE_MODEL = True
 
 writer_real = SummaryWriter(f"/logs/real")
 writer_fake = SummaryWriter(f"/logs/fake")
