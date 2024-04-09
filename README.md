@@ -55,6 +55,11 @@ This repository contains code for face frontalization using Generative Adversari
     - Generated Faces:
     ![Generated Faces](images/fakes.png)
 
+
+4. **Downloading Pre-trained Weights and Logs**: Due to GitHub's file size limitations, the `weights` and `logs` directories are not included in this repository. However, you can download them from the following Google Drive link:
+
+    [Download Weights and Logs](https://drive.google.com/drive/folders/1VrigQSP8iPeeNuCgQjDywuWxeTskW3xW?usp=share_link)
+
 ## Training Details
 
 - The GAN models are trained for a certain number of iterations specified in `config.py`.
